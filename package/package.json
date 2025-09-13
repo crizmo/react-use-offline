@@ -1,11 +1,32 @@
 {
   "name": "react-use-offline",
   "version": "0.1.0",
+  "description": "A lightweight React hook for queuing actions while offline and syncing automatically when back online.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "offline",
+    "queue",
+    "sync",
+    "react-hooks",
+    "indexeddb"
+  ],
+  "author": "Kurizu Taz <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crizmo/react-use-offline.git"
+  },
+  "homepage": "https://github.com/crizmo/react-use-offline#readme",
+  "bugs": {
+    "url": "https://github.com/crizmo/react-use-offline/issues"
   },
   "peerDependencies": {
     "react": "^18.0.0",
