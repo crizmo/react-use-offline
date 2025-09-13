@@ -1,4 +1,4 @@
-# 📦 react-offline-queue
+# 📦 react-use-offline
 
 A lightweight React hook for **queuing actions while offline** and syncing automatically when back online.
 
@@ -16,7 +16,7 @@ A lightweight React hook for **queuing actions while offline** and syncing autom
 
 ## 📦 Installation
 ```bash
-npm install react-offline-queue
+npm install react-use-offline
 ```
 
 ---
@@ -24,7 +24,7 @@ npm install react-offline-queue
 ## 🚀 Quick Start
 ```tsx
 import React from "react";
-import { useOfflineQueue, OfflineQueueProvider } from "react-offline-queue";
+import { useOfflineQueue, OfflineQueueProvider } from "react-use-offline";
 
 async function sendToServer(payload: { msg: string }) {
   if (!navigator.onLine) throw new Error("Offline!");

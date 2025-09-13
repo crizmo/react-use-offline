@@ -115,7 +115,7 @@ function Demo() {
 
       {/* Docs section */}
       <div style={{ backgroundColor: "#f7f7f7", padding: 30, borderRadius: 8 }}>
-        <h2>📦 react-offline-queue Documentation</h2>
+        <h2>📦 react-use-offline Documentation</h2>
 
         <h3>✨ Features</h3>
         <ul>
@@ -127,12 +127,12 @@ function Demo() {
 
         <h3>📦 Installation</h3>
         <pre style={{ background: "#222", color: "#f8f8f2", padding: 12, borderRadius: 6 }}>
-          <code>npm install react-offline-queue</code>
+          <code>npm install react-use-offline</code>
         </pre>
 
         <h3>🚀 Quick Start</h3>
         <pre style={{ background: "#222", color: "#f8f8f2", padding: 12, borderRadius: 6, overflowX: "auto" }}>
-          <code>{`import { useOfflineQueue, OfflineQueueProvider } from "react-offline-queue";
+          <code>{`import { useOfflineQueue, OfflineQueueProvider } from "react-use-offline";
 
 async function sendToServer(payload) {
   if (!navigator.onLine) throw new Error("Offline!");
