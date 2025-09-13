@@ -1,0 +1,14 @@
+# Source files we don't need in npm package
+src/
+node_modules/
+vite.config.ts
+tsconfig.json
+*.log
+
+# Example app (if included in same repo)
+../example/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
