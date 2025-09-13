@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { OfflineQueueProvider, useOfflineQueue } from "../../package/src";
-import { getAllItems } from "../../package/src/queueStore";
-import type { QueueItem } from "../../package/src/types";
+import { OfflineQueueProvider, useOfflineQueue, getAllItems, QueueItem } from "react-use-offline";
+
 
 type Payload = { msg: string };
 
