@@ -1,4 +1,8 @@
 # 📦 react-use-offline
+[![GitHub Stars](https://img.shields.io/github/stars/crizmo/react-use-offline?style=social)](https://github.com/crizmo/react-use-offline/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/crizmo/react-use-offline)](https://github.com/crizmo/react-use-offline/issues)
+[![NPM Version](https://img.shields.io/npm/v/react-use-offline)](https://www.npmjs.com/package/react-use-offline)
+[![NPM Downloads](https://img.shields.io/npm/dm/react-use-offline)](https://www.npmjs.com/package/react-use-offline)
 
 A lightweight React hook for **queuing actions while offline** and syncing automatically when back online.
 
