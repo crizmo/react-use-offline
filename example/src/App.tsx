@@ -51,7 +51,12 @@ function Demo() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", padding: "20px", maxWidth: 900, margin: "0 auto" }}>
       <h1 style={{ textAlign: "center", color: "#2c3e50" }}>📦 React Offline Queue Demo & Docs</h1>
-
+      <p style={{ textAlign: "center", color: "#7f8c8d" }}>
+        In order to test it , Turn off your network and try enqueueing messages.
+      </p>
+      <p style={{ textAlign: "center", color: "#7f8c8d" }}>
+        Then turn the network back on to see them sync automatically!
+      </p>
       {/* Demo controls */}
       <div style={{ textAlign: "center", margin: "20px 0" }}>
         <button
