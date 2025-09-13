@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { OfflineQueueProvider, useOfflineQueue, getAllItems, QueueItem } from "react-use-offline";
 
-
 type Payload = { msg: string };
 
 async function fakeApi(payload: Payload) {

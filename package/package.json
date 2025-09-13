@@ -1,6 +1,6 @@
 {
   "name": "react-use-offline",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight React hook for queuing actions while offline and syncing automatically when back online.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
