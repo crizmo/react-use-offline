@@ -2,7 +2,7 @@
 
 A lightweight React hook for **queuing actions while offline** and syncing automatically when back online.
 
-🔗 [Live Demo on Vercel](https://your-vercel-demo-url.vercel.app)
+🔗 [Live Demo on Vercel](https://react-use-offline.vercel.app/)
 
 ---
 
@@ -69,5 +69,5 @@ export default function App() {
 ---
 
 ## 👀 Demo App 
-🔗 [Vercel Demo](https://your-vercel-demo-url.vercel.app)
+🔗 [Vercel Demo](https://react-use-offline.vercel.app/)
 🔗 [GitHub Repository](https://github.com/your-repo-url)
