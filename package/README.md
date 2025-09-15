@@ -70,4 +70,4 @@ export default function App() {
 
 ## 👀 Demo App 
 🔗 [Vercel Demo](https://react-use-offline.vercel.app/)
-🔗 [GitHub Repository](https://github.com/your-repo-url)
+🔗 [GitHub Repository](https://github.com/crizmo/react-use-offline)
